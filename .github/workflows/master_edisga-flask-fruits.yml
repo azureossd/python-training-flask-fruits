@@ -30,7 +30,7 @@ jobs:
         platform-version: '3.8'
 
     - name: Run Azure webapp deploy action using publish profile credentials
-      uses: azure/webapps-deploy@v2
+      uses: azure/webapps-deploy@v3
       with:
         app-name: edisga-flask-fruits
         slot-name: Production
